@@ -1,0 +1,111 @@
+@import "../sprite.css";
+@import "../css/normalize.css";
+body {
+  background: #eceef3;
+}
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+.box {
+  width: 1380px;
+  margin: auto;
+}
+ul,
+li {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.gap {
+  margin-top: 40px;
+}
+.c {
+  text-align: center;
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: "";
+  display: inline-block;
+  overflow: hidden;
+  width: 0px;
+  height: 0px;
+}
+.header-box {
+  height: 80px;
+  background: #ffcf3c;
+}
+.header-box .header {
+  height: 100%;
+  margin: auto;
+}
+.header-box #nav {
+  vertical-align: middle;
+  display: inline-block;
+  margin-left: 224px;
+  color: #000;
+  font-size: 0px;
+  height: 100%;
+}
+.header-box #nav li {
+  font-size: 24px;
+  display: inline-block;
+  height: 100%;
+  cursor: pointer;
+  padding: 0px 20px;
+  line-height: 80px;
+}
+.header-box #nav li:hover,
+.header-box #nav li.active {
+  background: #282828;
+  color: #ffcf3c;
+}
+.icon-kefu {
+  position: fixed;
+  right: 28px;
+  bottom: 40px;
+  cursor: pointer;
+}
+.page1 .banner {
+  height: 350px;
+}
+.page1 li {
+  font-size: 24px;
+  margin-right: 16px;
+  display: inline-block;
+}
+.page1 li .icon {
+  width: 260px;
+  height: 208px;
+}
+.page1 li div {
+  cursor: pointer;
+  background: #ff3e5b;
+  border-radius: 10px;
+  height: 50px;
+  line-height: 50px;
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+}
+.page1 .b2 {
+  background: #e83636;
+}
+.page1 .b3 {
+  background: #ff5725;
+}
+.page1 .b4 {
+  background: #f6d741;
+}
+.page1 .b5 {
+  background: #70a6ff;
+}
+.page1 li:last-child {
+  margin-right: 0px;
+}

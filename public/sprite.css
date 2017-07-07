@@ -1,0 +1,102 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-about {
+  background-image: url(sprite.png);
+  background-position: 0px -255px;
+  width: 260px;
+  height: 208px;
+}
+.icon-article {
+  background-image: url(sprite.png);
+  background-position: -262px -255px;
+  width: 260px;
+  height: 208px;
+}
+.icon-kefu {
+  background-image: url(sprite.png);
+  background-position: -828px 0px;
+  width: 115px;
+  height: 221px;
+}
+.icon-logo {
+  background-image: url(sprite.png);
+  background-position: -256px -465px;
+  width: 173px;
+  height: 69px;
+}
+.icon-picture {
+  background-image: url(sprite.png);
+  background-position: -566px -210px;
+  width: 259px;
+  height: 208px;
+}
+.icon-qr {
+  background-image: url(sprite.png);
+  background-position: 0px 0px;
+  width: 564px;
+  height: 253px;
+}
+.icon-video {
+  background-image: url(sprite.png);
+  background-position: -566px 0px;
+  width: 260px;
+  height: 208px;
+}
+.icon-vote {
+  background-image: url(sprite.png);
+  background-position: 0px -465px;
+  width: 254px;
+  height: 208px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+       (min-resolution: 192dpi) {
+  .icon-about {
+    background-image: url(sprite@2x.png);
+    background-size: 943px 673px;
+  }
+  .icon-article {
+    background-image: url(sprite@2x.png);
+    background-size: 943px 673px;
+  }
+  .icon-kefu {
+    background-image: url(sprite@2x.png);
+    background-size: 943px 673px;
+  }
+  .icon-logo {
+    background-image: url(sprite@2x.png);
+    background-size: 943px 673px;
+  }
+  .icon-picture {
+    background-image: url(sprite@2x.png);
+    background-size: 943px 673px;
+  }
+  .icon-qr {
+    background-image: url(sprite@2x.png);
+    background-size: 943px 673px;
+  }
+  .icon-video {
+    background-image: url(sprite@2x.png);
+    background-size: 943px 673px;
+  }
+  .icon-vote {
+    background-image: url(sprite@2x.png);
+    background-size: 943px 673px;
+  }
+}

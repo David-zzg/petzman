@@ -1,0 +1,117 @@
+@import "../sprite.css";
+@import "../css/normalize.css";
+@width:1380px;
+@yellow:#ffcf3c;
+body{
+    background: #eceef3;
+}
+.icon{
+    display: inline-block;
+    vertical-align: middle;
+}
+.box{
+    width: @width;
+    margin: auto;
+}
+ul,li{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.gap{
+    margin-top: 40px;
+}
+.c{
+    text-align: center;
+}
+.clearfix{
+    zoom: 1;
+    &:after{
+        content: "";
+        display: inline-block;
+        overflow: hidden;
+        width: 0px;
+        height: 0px;
+    }
+}
+//标题栏
+.header-box{
+    height: 80px;
+    background: @yellow;
+    .header{
+        height: 100%;
+        margin: auto;
+    }
+    #nav{
+        vertical-align: middle;
+        display: inline-block;
+        margin-left: 224px;
+        color: #000;
+        font-size: 0px;
+        height: 100%;
+        li{
+            font-size: 24px;
+            display: inline-block;
+            height: 100%;
+            cursor: pointer;
+            padding: 0px 20px;
+            line-height: 80px;
+            &:hover,&.active{
+                background: #282828;
+                color: @yellow;
+            }
+        }
+    }
+}
+
+//客服
+.icon-kefu{
+    position: fixed;
+    right: 28px;
+    bottom: 40px;
+    cursor: pointer;
+}
+
+.page1{
+    .banner{
+        height: 350px;
+    }
+    li{
+        font-size: 24px;
+        margin-right: 16px;
+        display: inline-block;
+        .icon{
+            width: 260px;
+            height: 208px;
+        }
+        div{
+            cursor: pointer;
+            background:#ff3e5b;
+            border-radius:10px;
+            height:50px;
+            line-height: 50px;
+            margin-top: 20px;
+            color: white;
+            text-align: center;
+        }
+    }
+    .b2{
+        background: #e83636;
+    }
+    .b3{
+        background: #ff5725;  
+    }
+    .b4{
+        background: #f6d741;
+    }
+    .b5{
+        background: #70a6ff;
+    }
+    li:last-child{
+        margin-right: 0px;
+    }
+}
