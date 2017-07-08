@@ -18,85 +18,205 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 */
 .icon-about {
   background-image: url(sprite.png);
-  background-position: 0px -255px;
+  background-position: -1651px -775px;
   width: 260px;
   height: 208px;
 }
 .icon-article {
   background-image: url(sprite.png);
-  background-position: -262px -255px;
+  background-position: -1651px -355px;
   width: 260px;
   height: 208px;
 }
+.icon-fqr {
+  background-image: url(sprite.png);
+  background-position: -822px -822px;
+  width: 195px;
+  height: 195px;
+}
 .icon-kefu {
   background-image: url(sprite.png);
-  background-position: -828px 0px;
+  background-position: -354px -1077px;
   width: 115px;
   height: 221px;
 }
 .icon-logo {
   background-image: url(sprite.png);
-  background-position: -256px -465px;
+  background-position: -1381px -657px;
   width: 173px;
   height: 69px;
 }
+.icon-p2left {
+  background-image: url(sprite.png);
+  background-position: -480px 0px;
+  width: 415px;
+  height: 784px;
+}
+.icon-p2right {
+  background-image: url(sprite.png);
+  background-position: -897px 0px;
+  width: 374px;
+  height: 701px;
+}
+.icon-p2top {
+  background-image: url(sprite.png);
+  background-position: -1273px -657px;
+  width: 106px;
+  height: 118px;
+}
+.icon-p3left {
+  background-image: url(sprite.png);
+  background-position: -1651px 0px;
+  width: 274px;
+  height: 353px;
+}
+.icon-p3right {
+  background-image: url(sprite.png);
+  background-position: 0px 0px;
+  width: 478px;
+  height: 820px;
+}
+.icon-p3top {
+  background-image: url(sprite.png);
+  background-position: -1782px -1195px;
+  width: 77px;
+  height: 112px;
+}
+.icon-p4left {
+  background-image: url(sprite.png);
+  background-position: 0px -1077px;
+  width: 352px;
+  height: 294px;
+}
+.icon-p4right {
+  background-image: url(sprite.png);
+  background-position: -1273px 0px;
+  width: 376px;
+  height: 655px;
+}
+.icon-p4top {
+  background-image: url(sprite.png);
+  background-position: -1651px -1195px;
+  width: 129px;
+  height: 113px;
+}
 .icon-picture {
   background-image: url(sprite.png);
-  background-position: -566px -210px;
+  background-position: -1651px -985px;
   width: 259px;
   height: 208px;
 }
 .icon-qr {
   background-image: url(sprite.png);
-  background-position: 0px 0px;
+  background-position: 0px -822px;
   width: 564px;
   height: 253px;
 }
+.icon-tqr {
+  background-image: url(sprite.png);
+  background-position: -1019px -822px;
+  width: 195px;
+  height: 195px;
+}
 .icon-video {
   background-image: url(sprite.png);
-  background-position: -566px 0px;
+  background-position: -1651px -565px;
   width: 260px;
   height: 208px;
 }
 .icon-vote {
   background-image: url(sprite.png);
-  background-position: 0px -465px;
+  background-position: -566px -822px;
   width: 254px;
   height: 208px;
+}
+.icon-wc {
+  background-image: url(sprite.png);
+  background-position: -1556px -657px;
+  width: 84px;
+  height: 67px;
 }
 
 @media (-webkit-min-device-pixel-ratio: 2),
        (min-resolution: 192dpi) {
   .icon-about {
     background-image: url(sprite@2x.png);
-    background-size: 943px 673px;
+    background-size: 1925px 1371px;
   }
   .icon-article {
     background-image: url(sprite@2x.png);
-    background-size: 943px 673px;
+    background-size: 1925px 1371px;
+  }
+  .icon-fqr {
+    background-image: url(sprite@2x.png);
+    background-size: 1925px 1371px;
   }
   .icon-kefu {
     background-image: url(sprite@2x.png);
-    background-size: 943px 673px;
+    background-size: 1925px 1371px;
   }
   .icon-logo {
     background-image: url(sprite@2x.png);
-    background-size: 943px 673px;
+    background-size: 1925px 1371px;
+  }
+  .icon-p2left {
+    background-image: url(sprite@2x.png);
+    background-size: 1925px 1371px;
+  }
+  .icon-p2right {
+    background-image: url(sprite@2x.png);
+    background-size: 1925px 1371px;
+  }
+  .icon-p2top {
+    background-image: url(sprite@2x.png);
+    background-size: 1925px 1371px;
+  }
+  .icon-p3left {
+    background-image: url(sprite@2x.png);
+    background-size: 1925px 1371px;
+  }
+  .icon-p3right {
+    background-image: url(sprite@2x.png);
+    background-size: 1925px 1371px;
+  }
+  .icon-p3top {
+    background-image: url(sprite@2x.png);
+    background-size: 1925px 1371px;
+  }
+  .icon-p4left {
+    background-image: url(sprite@2x.png);
+    background-size: 1925px 1371px;
+  }
+  .icon-p4right {
+    background-image: url(sprite@2x.png);
+    background-size: 1925px 1371px;
+  }
+  .icon-p4top {
+    background-image: url(sprite@2x.png);
+    background-size: 1925px 1371px;
   }
   .icon-picture {
     background-image: url(sprite@2x.png);
-    background-size: 943px 673px;
+    background-size: 1925px 1371px;
   }
   .icon-qr {
     background-image: url(sprite@2x.png);
-    background-size: 943px 673px;
+    background-size: 1925px 1371px;
+  }
+  .icon-tqr {
+    background-image: url(sprite@2x.png);
+    background-size: 1925px 1371px;
   }
   .icon-video {
     background-image: url(sprite@2x.png);
-    background-size: 943px 673px;
+    background-size: 1925px 1371px;
   }
   .icon-vote {
     background-image: url(sprite@2x.png);
-    background-size: 943px 673px;
+    background-size: 1925px 1371px;
+  }
+  .icon-wc {
+    background-image: url(sprite@2x.png);
+    background-size: 1925px 1371px;
   }
 }

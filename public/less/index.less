@@ -2,8 +2,13 @@
 @import "../css/normalize.css";
 @width:1380px;
 @yellow:#ffcf3c;
+@red:#ff5858;
+@blue:#7fccfd;
+@green:#4cbd77;
 body{
+    min-width: 1920px;
     background: #eceef3;
+    font-family: PingFangSC-Semibold;
 }
 .icon{
     display: inline-block;
@@ -27,6 +32,9 @@ a{
 }
 .c{
     text-align: center;
+}
+.m{
+    vertical-align: middle;
 }
 .clearfix{
     zoom: 1;
@@ -74,6 +82,7 @@ a{
     right: 28px;
     bottom: 40px;
     cursor: pointer;
+    z-index: 999;
 }
 
 .page1{
@@ -99,6 +108,9 @@ a{
             text-align: center;
         }
     }
+    .icon-qr{
+        margin-top: -1px;
+    }
     .b2{
         background: #e83636;
     }
@@ -113,5 +125,173 @@ a{
     }
     li:last-child{
         margin-right: 0px;
+    }
+}
+
+.p{
+    position: relative;
+    background: @red;
+    height: 1080px;
+    box-sizing: border-box;
+    padding-bottom: 40px;
+    .p-title{
+        vertical-align: bottom;
+        display: inline-block;
+        margin-bottom: 6px;
+    }
+    ul,li{
+        display: inline-block;
+    }
+    .more{
+        position: absolute;
+        right: 0px;
+        bottom: 8px;
+        font-size: 14px;
+        color: white;
+      
+    }
+    .navbar{
+        padding-top: 20px;
+        font-size: 35px;
+        ul{
+            vertical-align: bottom;
+            color: white;
+            position: absolute;
+            font-size: 24px;
+            bottom: -4px;
+            left: 494px;
+            li{
+                margin: 0px 8px;
+                padding: 8px 16px;
+                &.active{
+                    border-bottom: 4px solid #1d1d1d;
+                }
+            }
+        }
+        &.box{
+            border-bottom: 4px solid white;
+            position: relative;
+        }
+    }
+    .card-box{
+        width: 100%;
+        text-align: center;
+    }
+    .card{
+        text-align: left;
+        margin: 0px 33px;
+        background: white;
+        width: 339px;
+        border-radius:8px;
+        overflow: hidden;
+        box-sizing: border-box;
+        .card-img{
+            background-repeat: no-repeat;
+            background-position: 50%;
+            height: 250px;
+            width: 100%;
+            overflow: hidden;
+        }
+        .card-title{
+            font-size: 24px;
+            line-height: 47px;
+            padding: 0px 17px;
+        }
+        .card-des{
+            line-height: 27px;
+            padding: 0px 17px;
+            font-size:18px;
+            font-family:PingFangTC-Regular;
+            color:#bbbbbb;
+        }
+        .card-line{
+            margin-top: 26px;
+            border-bottom:1px solid #eeeeee;
+        }
+        .card-time{
+            padding: 10px 10px 6px 0px;
+            text-align: right;
+            font-family:PingFangTC-Regular;
+            font-size:18px;
+            color:#bbbbbb;
+        }
+    }
+}
+.p2{
+    .icon-p2left{
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+    }
+    .icon-p2right{
+        top: 141px;
+        position: absolute;
+        right: 0px;
+    }
+}
+.p3{
+    margin-top: 13px;
+    background: @green;
+    .icon-p3left{
+        position: absolute;
+        left: 0px;
+        top: 140px;
+    }
+    .icon-p3right{
+        position: absolute;
+        bottom: 40px;
+        right: 0px;
+    }
+}
+.p4{
+    margin-top: 13px;
+    background: @blue;
+    .icon-p4left{
+        position: absolute;
+        left: 0px;
+        top: 140px;
+    }
+    .icon-p4right{
+        position: absolute;
+        bottom: 66px;
+        right: 0px;
+    }
+}
+
+.footer{
+    padding: 75px 125px 35px 125px;
+    box-sizing: border-box;
+    height: 458px;
+    background:#333333;
+    font-family:PingFangTC-Regular;
+    font-size:24px;
+    color:#ffffff;
+    .icon-fqr{
+        margin-left: 70px;
+    }
+    ul{
+        margin: 32px;
+        display: inline-block;
+        vertical-align: middle;
+        li{
+            padding: 15px 0px;
+        }
+    }
+    .block{
+        display: inline-block;
+        margin-left: 150px;
+        vertical-align: middle;
+        &>div{
+            margin: 30px 0px;
+        }
+    }
+    .l{
+        display: inline-block;
+        line-height: 40px;
+        padding-left: 30px;
+    }
+    .c{
+        margin-top: 27px;
+        line-height: 40px;
     }
 }

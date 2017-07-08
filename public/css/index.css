@@ -1,7 +1,9 @@
 @import "../sprite.css";
 @import "../css/normalize.css";
 body {
+  min-width: 1920px;
   background: #eceef3;
+  font-family: PingFangSC-Semibold;
 }
 .icon {
   display: inline-block;
@@ -26,6 +28,9 @@ a {
 }
 .c {
   text-align: center;
+}
+.m {
+  vertical-align: middle;
 }
 .clearfix {
   zoom: 1;
@@ -71,6 +76,7 @@ a {
   right: 28px;
   bottom: 40px;
   cursor: pointer;
+  z-index: 999;
 }
 .page1 .banner {
   height: 350px;
@@ -94,6 +100,9 @@ a {
   color: white;
   text-align: center;
 }
+.page1 .icon-qr {
+  margin-top: -1px;
+}
 .page1 .b2 {
   background: #e83636;
 }
@@ -108,4 +117,168 @@ a {
 }
 .page1 li:last-child {
   margin-right: 0px;
+}
+.p {
+  position: relative;
+  background: #ff5858;
+  height: 1080px;
+  box-sizing: border-box;
+  padding-bottom: 40px;
+}
+.p .p-title {
+  vertical-align: bottom;
+  display: inline-block;
+  margin-bottom: 6px;
+}
+.p ul,
+.p li {
+  display: inline-block;
+}
+.p .more {
+  position: absolute;
+  right: 0px;
+  bottom: 8px;
+  font-size: 14px;
+  color: white;
+}
+.p .navbar {
+  padding-top: 20px;
+  font-size: 35px;
+}
+.p .navbar ul {
+  vertical-align: bottom;
+  color: white;
+  position: absolute;
+  font-size: 24px;
+  bottom: -4px;
+  left: 494px;
+}
+.p .navbar ul li {
+  margin: 0px 8px;
+  padding: 8px 16px;
+}
+.p .navbar ul li.active {
+  border-bottom: 4px solid #1d1d1d;
+}
+.p .navbar.box {
+  border-bottom: 4px solid white;
+  position: relative;
+}
+.p .card-box {
+  width: 100%;
+  text-align: center;
+}
+.p .card {
+  text-align: left;
+  margin: 0px 33px;
+  background: white;
+  width: 339px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.p .card .card-img {
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 250px;
+  width: 100%;
+  overflow: hidden;
+}
+.p .card .card-title {
+  font-size: 24px;
+  line-height: 47px;
+  padding: 0px 17px;
+}
+.p .card .card-des {
+  line-height: 27px;
+  padding: 0px 17px;
+  font-size: 18px;
+  font-family: PingFangTC-Regular;
+  color: #bbbbbb;
+}
+.p .card .card-line {
+  margin-top: 26px;
+  border-bottom: 1px solid #eeeeee;
+}
+.p .card .card-time {
+  padding: 10px 10px 6px 0px;
+  text-align: right;
+  font-family: PingFangTC-Regular;
+  font-size: 18px;
+  color: #bbbbbb;
+}
+.p2 .icon-p2left {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+.p2 .icon-p2right {
+  top: 141px;
+  position: absolute;
+  right: 0px;
+}
+.p3 {
+  margin-top: 13px;
+  background: #4cbd77;
+}
+.p3 .icon-p3left {
+  position: absolute;
+  left: 0px;
+  top: 140px;
+}
+.p3 .icon-p3right {
+  position: absolute;
+  bottom: 40px;
+  right: 0px;
+}
+.p4 {
+  margin-top: 13px;
+  background: #7fccfd;
+}
+.p4 .icon-p4left {
+  position: absolute;
+  left: 0px;
+  top: 140px;
+}
+.p4 .icon-p4right {
+  position: absolute;
+  bottom: 66px;
+  right: 0px;
+}
+.footer {
+  padding: 75px 125px 35px 125px;
+  box-sizing: border-box;
+  height: 458px;
+  background: #333333;
+  font-family: PingFangTC-Regular;
+  font-size: 24px;
+  color: #ffffff;
+}
+.footer .icon-fqr {
+  margin-left: 70px;
+}
+.footer ul {
+  margin: 32px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer ul li {
+  padding: 15px 0px;
+}
+.footer .block {
+  display: inline-block;
+  margin-left: 150px;
+  vertical-align: middle;
+}
+.footer .block > div {
+  margin: 30px 0px;
+}
+.footer .l {
+  display: inline-block;
+  line-height: 40px;
+  padding-left: 30px;
+}
+.footer .c {
+  margin-top: 27px;
+  line-height: 40px;
 }
